@@ -1,0 +1,1 @@
+openssl dgst -sha512 message.txt

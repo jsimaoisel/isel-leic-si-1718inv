@@ -1,0 +1,1 @@
+openssl dgst -hmac si -sha512 message.txt
