@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+dependencies {
+    compile fileTree(dir: 'vendor/main', include: '*.jar')
+    testCompile fileTree(dir: 'vendor/test', include: '*.jar')
+}
+
+task myTask(type:Exec){
+  println "here's a task"
+  def v = System.getenv("LS_DBCONN_APP_PSQL")
+  commandLine "echo", v
+}
+
+test.dependsOn myTask
