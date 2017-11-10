@@ -9,11 +9,11 @@ import org.slf4j.LoggerFactory;
 
 public class HttpServer {
 
-    /* 
-     * TCP port where to listen. 
-     * Standard port for HTTP is 80 but might be already in use
-     */
-    private static final int LISTEN_PORT = 8080;
+   /*
+    * TCP port where to listen.
+    * Standard port for HTTP is 80 but might be already in use
+    */
+   private static final int LISTEN_PORT = 8080;
         
    public static void main(String[] args) throws Exception {
 
