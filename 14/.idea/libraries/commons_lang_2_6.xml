@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-lang-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendor/main/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/javax.servlet-3.0.0.v201112011016.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/jetty-all-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/joda-time-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/slf4j-api-1.7.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/main/slf4j-simple-1.7.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
